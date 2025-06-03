@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 3001",
-    "start:prod": "next start -p 3001",
+    "start": "next start",
+    "start:prod": "next start",
     "lint": "next lint"
   },
   "dependencies": {
