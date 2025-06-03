@@ -1,15 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Optimiert für Docker/Coolify Deployment
-  output: 'standalone',
-  
-  // Einfache Image-Konfiguration für Container
+  // Optimiert für Coolify Deployment
   images: {
     unoptimized: true,
   },
   
-  // Port-Konfiguration für Container
+  // Container-freundliche Konfiguration
   experimental: {
     serverActions: {
       allowedOrigins: ['*'],
